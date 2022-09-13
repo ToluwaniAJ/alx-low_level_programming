@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -11,11 +12,12 @@
  */
 int main(void)
 {
-	char word[8] = "_putchar";
-	int i;
+	char str[] = "_putchar";
+	int length = strlen(str), i;
 
-	for (i = 0; i < 8; i++){
-		_putchar(word[i]);
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 
