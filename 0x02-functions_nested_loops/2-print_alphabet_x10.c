@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void print_alphabet_x10(void) - Entry point
+ * void print_alphabet_x10 - Entry point
  *
  * Description: _putchar function prints 10 times the alphabet followed by a new line
  *
