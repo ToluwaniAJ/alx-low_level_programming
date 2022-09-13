@@ -6,19 +6,17 @@
 /**
  * main - Entry point
  *
- * Description: It prints _putchar, followed by a new line.
+ * Description: It prints '_putchar', followed by a new line.
  *
- * Return: 0.
+ * Return: Always 0
  */
 int main(void)
 {
 	char str[] = "_putchar";
 	int length = strlen(str), i;
 
-	for (i = 0; i < 8; i++)
-	{
+	for (i = 0; i < length; i++)
 		_putchar(str[i]);
-	}
 	_putchar('\n');
 
 	return (0);
