@@ -7,10 +7,7 @@
  *
  * Return: Result to add a and b
  */
-int add(int, int)
+int add(int a, int b)
 {
-	int a;
-	int b;
-
 	return (a + b);
 }
