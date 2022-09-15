@@ -6,4 +6,5 @@
 void positive_or_negative(int i);
 
 int largest number(int, int, int);
+
 #endif /* MAIN_H */
