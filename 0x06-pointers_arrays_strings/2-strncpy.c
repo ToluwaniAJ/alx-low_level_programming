@@ -10,7 +10,7 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int scrlen = 0, i = 0;
-	char *best = dest, *start = src;
+	char *temp = dest, *start = src;
 
 	while (*src)
 	{
@@ -28,5 +28,5 @@ char *_strncpy(char *dest, char *src, int n)
 	for (; i < n; i++)
 		*dest++ = *src++;
 
-	return (best);
+	return (temp);
 }
