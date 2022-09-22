@@ -2,20 +2,11 @@
 
 /**
  * _strcat - concatenates two strings
- * @dest: an input string
- * @src: an input string
+ * @dest: a string pointer
+ * @src: a string pointer
  * Return: A pointer to the resulting string
  */
 char *_strcat(char *dest, char *src)
 {
-	char *best = dest;
-
-	while (*dest)
-		dest++;
-
-	while (*src)
-		*dest++ = *src++;
-
-	*dest = '\0';
-	return (best);
+	return (strcat(dest, src));
 }
