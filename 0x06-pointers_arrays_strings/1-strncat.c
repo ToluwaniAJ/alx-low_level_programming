@@ -3,8 +3,8 @@
 
 /**
  * _strncat - concatenates two strings
- * @dest: destination
- * @src: source
+ * @dest: the destination buffer
+ * @src: the source buffer
  * @n: total number of bytes
  * Return: dest
  */
